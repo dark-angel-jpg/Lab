@@ -36,7 +36,7 @@
 - определяет макисмальное и минимальное значение функции;
 
 Задание представлено на рисунке. Вариант 10. <br>
-![Рис. 1](https://github.com/dark-angel-jpg/Lab/blob/master/image%20lab%202/задание%20лаба%202.jpg?raw=true) 
+![Рис. 1](https://github.com/dark-angel-jpg/Lab/blob/master/image%20lab%202/график%20темный.jpg?raw=true) 
 >Рисунок 1 - Кусочно-заданная функция.
 
 ####С++
