@@ -84,8 +84,10 @@
 ![](https://github.com/dark-angel-jpg/Lab/blob/master/image%20for%20lab%207/7.png?raw=true)
 >Рис. 10 - Дизайн проекта в Qt.</br>
 
+
 ![](https://github.com/dark-angel-jpg/Lab/blob/master/image%20for%20lab%207/11.png?raw=true)
->Рис. 11 - Смена языка нового значения в Qt.
+>Рис. 11 - Смена языка нового значения в Qt.</br>
+
 ![](https://github.com/dark-angel-jpg/Lab/blob/master/image%20for%20lab%207/12.png?raw=true)
 >Рис. 12 - Итоговый дизайн проекта.
 **Вывод:**Я изучила основные возмодности создания и откладки программ в IDE Qt Creator. Сравнила работу откладчика Qt Creator с откладчиком Visual Studio. Научилась менять базовые параметры визуальных компанентов в редакторе дизайна.
