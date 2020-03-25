@@ -66,8 +66,10 @@
 Была создана программа и выставлены breakpoint на 5,6,7 поле. Запускаем код в режиме откладки и видим, что в двух переменных лежит мусор на 5 строке(Рисунок 6). На 6 строке первая переменная приобретает значение 5 и в 7 строке обе переменные приобретают значение 5(Рисунок 7 и 8).
 ![](https://github.com/dark-angel-jpg/Lab/blob/master/image%20for%20lab%207/8.png?raw=true)
 >Рис. 6 - Первая точка остановы на 5 строке.</br>
+
 ![](https://github.com/dark-angel-jpg/Lab/blob/master/image%20for%20lab%207/9.png?raw=true)
 >Рис. 7 - Значение переменных в строке 6.</br>
+
 ![](https://github.com/dark-angel-jpg/Lab/blob/master/image%20for%20lab%207/10.png?raw=true)
 >Рис. 8 - Значение переменных в строке 7.</br>
 
