@@ -73,5 +73,20 @@
 ![](https://github.com/dark-angel-jpg/Lab/blob/master/image%20for%20lab%207/10.png?raw=true)
 >Рис. 8 - Значение переменных в строке 7.</br>
 
+Значения не сопадают с теми, что вы получали в MSVS. 
+
 **10.**
+Загружаем проект "Calculator Form Example" и заходим во вкладку "Проекты", выбрали комплект сборки, запустили сборку проекта. Устанавливаем курсор на слове show и нажимаем на клавишу F1 и получаем справочную информацию(Рисунок 9).
+![](https://github.com/dark-angel-jpg/Lab/blob/master/image%20for%20lab%207/6.png?raw=true)
+>Рис. 9 - Справочные документации об объектах в Qt.
+
+В инспекторе проектора выбираем во вкладке "Формы" файл "calculation.ui" и дважды щелкаем ЛКМ, мы попали в папку "Дизайн"(Рисунок 10) и меняем язык (Рисунок 11 и 12).
+![](https://github.com/dark-angel-jpg/Lab/blob/master/image%20for%20lab%207/7.png?raw=true)
+>Рис. 10 - Дизайн проекта в Qt.
+
+![](https://github.com/dark-angel-jpg/Lab/blob/master/image%20for%20lab%207/11.png?raw=true)
+>Рис. 11 - Смена языка нового значения в Qt.
+![](https://github.com/dark-angel-jpg/Lab/blob/master/image%20for%20lab%207/12.png?raw=true)
+>Рис. 12 - Итоговый дизайн проекта.
+**Вывод:**Я изучила основные возмодности создания и откладки программ в IDE Qt Creator. Сравнила работу откладчика Qt Creator с откладчиком Visual Studio. Научилась менять базовые параметры визуальных компанентов в редакторе дизайна.
 
