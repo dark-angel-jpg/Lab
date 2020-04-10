@@ -90,10 +90,10 @@ std::string readuntil(std::ifstream& fin, char end = '\r') {  //функция, 
     return s;
 }
 
-int end = -1;
-int lastEndSize = 1;
+int end = -1; // сохраняет последнюю позицию в строке
+int lastEndSize = 1; // сохраняет кол-во знаков
 
-std::string readuntilstr(std::string str, std::string endStr) {  //
+std::string readuntilstr(std::string str, std::string endStr) {  // функция для выделения подстроки с начальной(последней) позиции до определенного знака
     int begin = end + lastEndSize;
     end = str.find(endStr, begin);
     lastEndSize = endStr.size();
@@ -123,12 +123,12 @@ int main()
 
     while (true) {
 
-        end = -1;  //сбрасываем readuntil в начало;
+        end = -1;  //сбрасываем readuntil в начало (спец. для каждой строки)
 
         line = readuntil(fin, '\r');
         	if (line == "") break;
         Passenger p;
-        p.id = std::stoi(readuntilstr(line, ","));
+        p.id = std::stoi(readuntilstr(line, ",")); // stoi - преобразование строки в числовое значение (int)
         p.survival = std::stoi(readuntilstr(line, ","));
         p.pclass = (Pclass)std::stoi(readuntilstr(line, ",\""));
         p.name = readuntilstr(line, "\",");
@@ -141,7 +141,7 @@ int main()
         p.sibsp = std::stoi(readuntilstr(line, ","));
         p.parch = std::stoi(readuntilstr(line, ","));
         p.ticket = readuntilstr(line, ",");
-        p.fare = std::stod(readuntilstr(line, ","));
+        p.fare = std::stod(readuntilstr(line, ",")); 
         p.cabin = readuntilstr(line, ",");
 
         std::string em = readuntilstr(line, ",");
@@ -149,7 +149,7 @@ int main()
         	else if (em == "Q") p.embarked = Embarked::Q;
         	else p.embarked = Embarked::S;
 
-        passengers.push_back(p); //добавление заполненой структуры пассажира в вектор
+        passengers.push_back(p); // добавление заполненой структуры пассажира в вектор
     }
 
    int calive = 0,
@@ -161,8 +161,8 @@ int main()
     double average_age = 0;
     int female_all = 0,
         male_all = 0;
-    double average_female = 0,
-           average_male = 0;
+    double average_female = 0, // сред. жен. возраст
+           average_male = 0; // сред. муж. возраст
     int shtat[3]{};
     int age_all = 0;
     Embarked shtat_max = C;
@@ -194,11 +194,11 @@ int main()
         
       	if (passengers[i].age < 18 && passengers[i].age!=-1) children.push_back(passengers[i].id);
   }
-    average_age /= age_all;
-    average_female /= female_all;
-    average_male /= male_all;
+    average_age /= age_all; 
+    average_female /= female_all; 
+    average_male /= male_all; 
 	
-    	if (shtat[shtat_max] < shtat[Q]) shtat_max = Q;
+    	if (shtat[shtat_max] < shtat[Q]) shtat_max = Q; // Максимальный штат 
     	if (shtat[shtat_max] < shtat[S]) shtat_max = S;
 
     fout << "Общее число выживших:" << calive << '\n'
