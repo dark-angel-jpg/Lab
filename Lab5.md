@@ -41,8 +41,7 @@ struct Passenger{
     std::string name;
     Sex sex;
     double age;
-    short int sibsp;
-    short int parch;
+    short int sibsp, parch;
     std::string ticket;
     double fare;
     std::string cabin;
@@ -69,8 +68,7 @@ struct Passenger{
     std::string name;
     Sex sex;
     double age;
-    short int sibsp;
-    short int parch;
+    short int sibsp, parch;
     std::string ticket;
     double fare;
     std::string cabin;
