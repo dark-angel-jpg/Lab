@@ -227,7 +227,7 @@ int main()
 }
 
 ```
-Для просмотра результата: [File1](https://github.com/dark-angel-jpg/Lab/blob/master/File1.md).<br>
+Для просмотра результата: [File1.txt](https://github.com/dark-angel-jpg/Lab/blob/master/File1.txt).<br>
 Все рассчитанные характеристики в виде таблицы:<br>
 | **Характеристика**  | **Результат**   |
 | ------------ | ------------ |
