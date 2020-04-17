@@ -92,6 +92,9 @@
 ![](https://github.com/dark-angel-jpg/Lab/blob/master/image%20for%20lab%207/7.png?raw=true)
 >Рис. 10 - Дизайн проекта в Qt.</br>
 
+![](https://github.com/dark-angel-jpg/Lab/blob/master/image%20for%20lab%207/11.png?raw=true)
+>Рис. 11 - Смена языка нового значения в Qt.</br>
+
 ![](https://github.com/dark-angel-jpg/Lab/blob/master/image%20for%20lab%207/12.png?raw=true)
 >Рис. 12 - Итоговый дизайн проекта.</br>
 
