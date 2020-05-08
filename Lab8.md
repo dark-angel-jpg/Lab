@@ -33,6 +33,7 @@
 1. Заходим в **Qt Maintenance Tool**, во всплывающем окне выбираем "Добавление или удаление компонентов" и устанавливаем компонент Android.<br>
 
 2. Для установки **JDK 8** использовала [AdoptOpenJDK](https://adoptopenjdk.net/releases.html), версия msi. После проверяем корректность установки, в командную строку ввела: "java -version", как на Рисунке 1.<br>
+
 ![](https://github.com/dark-angel-jpg/Lab/blob/master/image%20for%20lab%208/Аннотация%202020-04-16%20023128.jpg?raw=true)
 >Рисунок 1 - Версия JDK.<br>
 
