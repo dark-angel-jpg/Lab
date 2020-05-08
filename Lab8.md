@@ -38,10 +38,12 @@
 >Рисунок 1 - Версия JDK.<br>
 
 3. Переходим к установке **Android Studio** с помощью VPN. Установила и настроила Android Studio, в соответсвии с указаниями (Рисунок 2).<br>
+
 ![](https://github.com/dark-angel-jpg/Lab/blob/master/image%20for%20lab%208/Аннотация%202020-04-16%20030338.jpg?raw=true)
 >Рисунок 2 - Установка компонентов.<br>
 
 4. Настройка Qt Creator: в устройстве Android указываем путь к JDK и SDK, Рисунок 3.<br>
+
 ![](https://github.com/dark-angel-jpg/Lab/blob/master/image%20for%20lab%208/Аннотация%202020-04-16%20155305.jpg?raw=true)
 >Рисунок 3 - Настройки Android.<br>
 
