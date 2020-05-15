@@ -3,7 +3,11 @@
 int main()
 {
     setlocale(LC_ALL, "Russian");
-    Game f = initGame('x');
+    char sign;
+    std::cout << "Приветствую, в игре. (раскладка должна быть английская)." << '\n';
+    std::cout<< "Введите символ, которым будете играть (x, o):";
+    std::cin >> sign;
+    Game f = initGame(sign);
 
     while (true) {
         updateDisplay(f);
