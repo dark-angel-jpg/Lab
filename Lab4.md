@@ -65,7 +65,7 @@ int main()
     }
 }
 ```
-2. Вспомогательный файл:
+2. [Вспомогательный файл](https://github.com/dark-angel-jpg/Lab/blob/master/for%20lab%204/dop.cpp):
 
 3. [Заголовочный файл](https://github.com/dark-angel-jpg/Lab/blob/master/for%20lab%204/ikssiki.h), который необходим для связи главного и вспомогательного файла:
 
