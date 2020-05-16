@@ -37,6 +37,7 @@
 int main()
 {
     setlocale(LC_ALL, "Russian");
+    bool again;
     char sign;
     std::cout << "Приветствую, в игре. (раскладка должна быть английская)." << '\n';
     std::cout<< "Введите символ, которым будете играть (x, o):";
@@ -52,15 +53,14 @@ int main()
                 break;
             }
     }
+    
     switch (f.status)
     {
     case USER_WIN: std::cout << "Pobeda-pobeda vmesto obeda";
         break;
     case BOT_WIN: std::cout << "Vo slavy Omnissii";
         break;
-    case NOT_WIN: std::cout << "No one";
-        break;
-    default: std::cout << "Something's wrong";
+    default: std::cout << "No one";
         break;
     }
 }
