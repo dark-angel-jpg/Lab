@@ -10,13 +10,14 @@ Game initGame(char userChar) {
 			f.board[i][j] = ' ';
 		}
 	}
-		if (rand() % 2 == 0) f.isUserTurn = true; //определение хода пользователя/бота
+	
+	if (userChar == 'o') f.botChar = 'x'; //установка символов пользователя/бота
+	else f.botChar = 'o';
+
+	if (rand() % 2 == 0) f.isUserTurn = true; //определение хода пользователя/бота
 		else f.isUserTurn = false;
 	f.status = PLAY;
 	f.userChar = userChar;
-	
-		if (userChar == 'o') f.botChar = 'x'; //установка символов пользователя/бота
-		else f.botChar = 'o';
 	
 	return f;
 }
@@ -47,8 +48,8 @@ void botTurn(Game* game) {
 		return;
 	}
 	
-	int kol = 0;
 	//проверка по строчкам
+	int kol = 0;
 	for (int i = 0; i < 3; i++) {
 		kol = 0;
 		for (int j = 0; j < 3; j++) {
@@ -84,8 +85,8 @@ void botTurn(Game* game) {
 		}
 	}
 	
-	int diag = 0;
 	//проверка по главной диагонали
+	int diag = 0;
 	for (int i = 0; i < 3; i++) {
 		if (game->board[i][i] == game->userChar) diag++;
 		if (diag == 2) {
@@ -118,7 +119,7 @@ void botTurn(Game* game) {
 	 randC = rand() % 3;
 	} while (game->board[randR][randC] != ' ');
 	
-	game->board[randR][randC] = game->botChar;//рандомный ход бота
+	game->board[randR][randC] = game->botChar; //рандомный ход бота
 }
 
 
@@ -141,34 +142,34 @@ void userTurn(Game* game) {
 bool updateGame(Game* game) {
 	game->isUserTurn = !game->isUserTurn;
 	//проверка на выигрыш 
-	int user_rows[3] = {};
-	int user_cols[3] = {};
-	int user_diags[2] = {}; // 0 - главная, 1 - побочная
+	int userline[3] = {};
+	int usercolum[3] = {};
+	int userdiags[2] = {}; 
 
-	int bot_rows[3] = {};
-	int bot_cols[3] = {};
-	int bot_diags[2] = {}; // 0 - главная, 1 - побочная
+	int botline[3] = {};
+	int botcolum[3] = {};
+	int botdiags[2] = {};
 
 	for (int i = 0; i < 3; i++) {
 		for (int j = 0; j < 3; j++) {
 			if (game->board[i][j] == game->userChar) {
-				user_rows[i]++;
-				user_cols[j]++;
-				if (i == j) user_diags[0]++;
-				if (i == 2 - j) user_diags[1]++;
+				userline[i]++;
+				usercolum[j]++;
+				if (i == j) userdiags[0]++;
+				if (i == 2 - j) userdiags[1]++;
 
-				if (user_rows[i] == 3 || user_cols[j] == 3 || user_diags[0] == 3 || user_diags[1] == 3) {
+				if (userline[i] == 3 || usercolum[j] == 3 || userdiags[0] == 3 || userdiags[1] == 3) {
 					game->status = USER_WIN;
 					return true;
 				}
 			}
 			else if (game->board[i][j] == game->botChar) {
-				bot_rows[i]++;
-				bot_cols[j]++;
-				if (i == j) bot_diags[0]++;
-				if (i == 2 - j) bot_diags[1]++;
+				botline[i]++;
+				botcolum[j]++;
+				if (i == j) botdiags[0]++;
+				if (i == 2 - j) botdiags[1]++;
 
-				if (bot_rows[i] == 3 || bot_cols[j] == 3 || bot_diags[0] == 3 || bot_diags[1] == 3) {
+				if (botline[i] == 3 || botcolum[j] == 3 || botdiags[0] == 3 || botdiags[1] == 3) {
 					game->status = BOT_WIN;
 					return true;
 				}
@@ -180,7 +181,7 @@ bool updateGame(Game* game) {
 	bool draw = true;
 	for (int i = 0; i < 3; i++) {
 		for (int j = 0; j < 3; j++) {
-			if (game->board[i][j] == ' ') return false;
+			if (game->board[i][j] == ' ') return false; //поиск пустой ячейки
 		}
 	}
 	if (draw) return true;
