@@ -36,14 +36,17 @@
 - Класс для тестирования.<br>
 
 **Ход работы:**
-**1** 
+**1.** <br>
+
 Итоговый тестовый проект: [Клик](https://github.com/dark-angel-jpg/Lab/tree/master/for%20lab%209/testp)<br>
 
 Проведенное тестирование (Рисунок 1):<br>
+
 ![](https://github.com/dark-angel-jpg/Lab/blob/master/for%20lab%209/Итог.jpg?raw=true)
 >Рисунок 1 - Итог тестирования.
 
-**2**
+**2.**<br>
+
 В 5 тесте проваливается из-за функции open() в [lockcontroller.cpp](https://github.com/dark-angel-jpg/Lab/blob/master/for%20lab%209/Lab9_Project_for_tests/lockcontroller.cpp) в DoorStatus LockController::lockDoor(). 
 Чтобы избежать данной ошибки, стоит переписать функцию:
 ```cpp
