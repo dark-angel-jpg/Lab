@@ -39,7 +39,7 @@
 **1** 
 Итоговый тестовый проект: [Клик](https://github.com/dark-angel-jpg/Lab/tree/master/for%20lab%209/testp)<br>
 
-Проведенное тестирование (Рисунок 1):
+Проведенное тестирование (Рисунок 1):<br>
 ![](https://github.com/dark-angel-jpg/Lab/blob/master/for%20lab%209/Итог.jpg?raw=true)
 >Рисунок 1 - Итог тестирования.
 
