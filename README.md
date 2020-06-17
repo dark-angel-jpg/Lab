@@ -9,5 +9,5 @@
 Лабораторная работа №6 Погодный информер - in the development<br>
 [Лабораторная работа №7 Изучение базовых возможностей IDE Qt Creator](https://github.com/dark-angel-jpg/Lab/blob/master/Lab7.md)<br>
 [Лабораторная работа №8 Настройка Qt Creator для разработки приложений под android](https://github.com/dark-angel-jpg/Lab/blob/master/Lab8.md) <br>
-Лабораторная работа №9 Тестирование при помощи Google Test Framework - in the development
+[Лабораторная работа №9 Тестирование при помощи Google Test Framework](https://github.com/dark-angel-jpg/Lab/blob/master/Lab9.md)
 
