@@ -25,12 +25,12 @@
 Симферополь, 2019
 ## Лабораторная работа №9
 Тестирование при помощи Google Test Framework<br>
-**Цель:** 
-1. Познакомиться с Google Test и Google Mock Framework;<br>
+**Цель:** 1. Познакомиться с Google Test и Google Mock Framework;<br>
 2. Изучить базовые понятия относяцийся к тестированию кода;<br>
 3. Научиться тестировать классы в среде разработки Qt Creator.<br>
 **Инструменты:**
 - IDE Qt Creator;<br>
 - Google test и Google Mock Framework;<br>
 - Класс для тестирования.<br>
+
 **Ход работы:**
