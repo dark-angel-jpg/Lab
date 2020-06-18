@@ -112,8 +112,7 @@ int main(void)
 ```
 **3.** Рисунок 1 с демонстрацией работы программы:
 
-
-![](https://github.com/dark-angel-jpg/Lab/blob/master/image%20for%20lab%206/Аннотация%202020-06-18%20132953.jpg?raw=true)
+![](https://github.com/dark-angel-jpg/Lab/blob/master/image%20for%20lab%206/Аннотация%202020-06-18%20133840.jpg?raw=true)
 
 >Рисунок 1 - Работа программы. 
 
