@@ -6,7 +6,7 @@
 [Лабораторная работа №3 Дешифровка текста из изображения](https://github.com/dark-angel-jpg/Lab/blob/master/Lab3.mdм)<br>
 [Лабораторная работа №4 Иксики-нолики](https://github.com/dark-angel-jpg/Lab/blob/master/Lab4.md)<br>
 [Лабораторная работа №5 Работа с текстовыми файлами](https://github.com/dark-angel-jpg/Lab/blob/master/Lab5.md)<br>
-Лабораторная работа №6 Погодный информер - in the development<br>
+[Лабораторная работа №6 Погодный информер - in the development](https://github.com/dark-angel-jpg/Lab/blob/master/Lab6.md)<br>
 [Лабораторная работа №7 Изучение базовых возможностей IDE Qt Creator](https://github.com/dark-angel-jpg/Lab/blob/master/Lab7.md)<br>
 [Лабораторная работа №8 Настройка Qt Creator для разработки приложений под android](https://github.com/dark-angel-jpg/Lab/blob/master/Lab8.md) <br>
 [Лабораторная работа №9 Тестирование при помощи Google Test Framework](https://github.com/dark-angel-jpg/Lab/blob/master/Lab9.md)
